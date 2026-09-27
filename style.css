@@ -1,0 +1,126 @@
+/* Dasar */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #521313;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    text-align: center;
+}
+
+/* Container */
+
+.container {
+    width: 700px;
+    max-width: 90%;
+    min-height: 650px;
+    margin: 30px auto;
+    padding: 35px 50px;
+    background-color: rgb(139, 63, 63);
+    border: 2px solid #222;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+/* Judul */
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+
+/* Profil */
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #222;
+}
+
+.profile h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.profile p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Sosial Media */
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.sosmed a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #222;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #222;
+    font-size: 11px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.sosmed a:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Deskripsi */
+
+.description {
+    width: 80%;
+    margin: 45px auto 25px;
+}
+
+.description h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.description p {
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 25px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+footer h5 {
+    margin: 5px;
+    font-size: 14px;
+}
+
+footer h6 {
+    margin: 5px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
